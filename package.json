@@ -1,0 +1,25 @@
+{
+  "name": "fhemessage",
+  "version": "1.0.0",
+  "description": "Fully Homomorphic Encrypted Messaging dApp using Zama FHEVM SDK",
+  "private": true,
+  "workspaces": ["packages/*"],
+  "scripts": {
+    "install:all": "pnpm install",
+    "chain": "cd packages/hardhat && pnpm hardhat node",
+    "compile": "cd packages/hardhat && pnpm hardhat compile",
+    "deploy:localhost": "cd packages/hardhat && pnpm hardhat run scripts/deploy.ts --network localhost",
+    "deploy:sepolia": "cd packages/hardhat && pnpm hardhat run scripts/deploy.ts --network sepolia",
+    "dev": "cd packages/client && pnpm dev",
+    "build": "pnpm run compile && cd packages/client && pnpm build",
+    "test": "cd packages/hardhat && pnpm hardhat test",
+    "clean": "pnpm -r clean && rm -rf node_modules"
+  },
+  "keywords": ["fhevm", "zama", "encryption", "messaging", "blockchain", "web3"],
+  "author": "FHEMessage Team",
+  "license": "BSD-3-Clause-Clear",
+  "engines": {
+    "node": ">=18.0.0",
+    "pnpm": ">=8.0.0"
+  }
+}

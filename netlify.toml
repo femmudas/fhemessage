@@ -1,0 +1,14 @@
+[build]
+  base = "."
+  command = "pnpm install && cd packages/client && pnpm build"
+  publish = "packages/client/dist"
+
+[build.environment]
+  NODE_VERSION = "18"
+  PNPM_VERSION = "8"
+
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
+
