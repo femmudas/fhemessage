@@ -20,7 +20,7 @@ export default function Layout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-screen flex flex-col bg-slate-900">
       <header className="bg-slate-800 border-b border-slate-700">
-        <div className="container mx-auto px-4 py-6">
+        <div className="container mx-auto px-4 py-8">
           <div className="flex items-center justify-between">
             <Link to="/" className="flex items-center space-x-2">
               <Lock className="w-8 h-8 text-blue-500" />
