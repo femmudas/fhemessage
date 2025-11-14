@@ -31,8 +31,6 @@ A decentralized, privacy-preserving messaging application built with **Zama's FH
 
 **FHEMessage** is a next-generation encrypted messaging platform that stores messages on the blockchain while maintaining complete privacy through Fully Homomorphic Encryption. Unlike traditional encrypted messaging systems, FHEMessage allows data to remain encrypted even while stored on-chain, ensuring that only intended recipients can decrypt and read messages.
 
-Built for the **Zama Developer Program October 2025 Bounty Track**, this project demonstrates the practical application of FHEVM technology in creating privacy-preserving decentralized applications.
-
 ---
 
 ## ✨ Key Features
