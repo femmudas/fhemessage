@@ -110,6 +110,7 @@ fhemessage/
 ├── package.json                # Root package.json
 ├── pnpm-workspace.yaml         # PNPM workspace config
 ├── LICENSE                     # BSD-3-Clause-Clear license
+├── Quick_Start.md              # This file
 └── README.md                   # This file
 ```
 
@@ -667,7 +668,7 @@ pnpm test  # (Tests to be added)
 ### Community
 
 - **Discord**: Join the [Zama Discord](https://discord.gg/zama)
-- **Twitter**: Follow [@zama_fhe](https://twitter.com/zama)
+- **X**: Follow [@zama_fhe](https://x.com/zama)
 - **Forum**: [Zama Community Forum](https://community.zama.ai)
 
 ---
@@ -724,7 +725,7 @@ Contributions are welcome! Please follow these steps:
 ## 📞 Contact & Support
 
 - **Issues**: [GitHub Issues](https://github.com/femmudas/fhemessage/issues)
-- **Twitter**: [@xosiriusx](https://twitter.com/xosiriusx)
+- **X**: [@xosiriusx](https://twitter.com/xosiriusx)
 
 ---
 
